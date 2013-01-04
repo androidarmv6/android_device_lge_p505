@@ -18,6 +18,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.p505.rc:root/init.p505.rc \
     $(LOCAL_PATH)/ueventd.p505.rc:root/ueventd.p505.rc
+    
+# P505 bluetooth vendor configuration
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
 # p505 Audio
 PRODUCT_PACKAGES += \
