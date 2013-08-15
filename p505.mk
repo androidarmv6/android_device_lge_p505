@@ -11,8 +11,9 @@ PRODUCT_COPY_FILES += \
 # p505 init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.p505.rc:root/init.p505.rc \
-    $(LOCAL_PATH)/ueventd.p505.rc:root/ueventd.p505.rc
-    
+    $(LOCAL_PATH)/ueventd.p505.rc:root/ueventd.p505.rc \
+    $(LOCAL_PATH)/fstab.p505:root/fstab.p505
+
 # fm radio
 PRODUCT_PACKAGES += \
     Effem \
